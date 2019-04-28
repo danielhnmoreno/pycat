@@ -6,8 +6,8 @@ parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
                                  description="###############         pycat         ###############\n" \
                                              "          Windows Reverse TCP backdoor\n"
                                              "Usage: python pycat.py --host netcatIP --port PORT\n\n" \
-                                             "Demo:    youtube.com/3sMhHL6c68E\n"\
-											 "GitHub:  github.com/danielhnmoreno/pycat\n" \
+                                             "Demo:  youtube.com/watch?v=3sMhHL6c68E\n"\
+                                             "GitHub:  github.com/danielhnmoreno/pycat\n" \
                                              "Contact: contato@bluesafe.com.br")
 
 parser.add_argument('--host', action = 'store', dest = 'host', required = True, help = 'Host listening for reverse connection')
